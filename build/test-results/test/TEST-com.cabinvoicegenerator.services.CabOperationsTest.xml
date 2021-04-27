@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cabinvoicegenerator.services.CabOperationsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-04-27T17:30:10" hostname="AVS-1997" time="0.083">
+<testsuite name="com.cabinvoicegenerator.services.CabOperationsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-27T18:29:43" hostname="AVS-1997" time="0.071">
   <properties/>
-  <testcase name="givenRidingDetails_WhenGiven_ShouldReturnFare()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.064"/>
-  <testcase name="givenMultipleRidingDetails_ShouldReturnTotalAggregateFare()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.006"/>
-  <testcase name="givenMultipleRidingDetails_ShouldReturnLengthAnd_Average()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.003"/>
-  <testcase name="givenUserId_shouldReturnParticularRidesAndTheirInvoice()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.005"/>
+  <testcase name="givenRidingDetails_WhenGiven_ShouldReturnFare()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.053"/>
+  <testcase name="givenMultipleRidingDetails_ShouldReturnTotalAggregateFare()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.003"/>
+  <testcase name="givenMultipleRidingDetails_ShouldReturnLengthAnd_Average()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.001"/>
+  <testcase name="givenCustomerType_ShouldReturnRegardingCostWithRespectTo_Customer()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.004"/>
+  <testcase name="givenUserId_shouldReturnParticularRidesAndTheirInvoice()" classname="com.cabinvoicegenerator.services.CabOperationsTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
