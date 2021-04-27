@@ -16,8 +16,20 @@ public class CabOperations {
     public double calculateMultipleRideCost(CabRide[] multipleRides){
         double totalRideCost = 0;
         for (CabRide ride :multipleRides) {
-            totalRideCost += calculateCostOfRide(ride.RideDistance,ride.timeInMin);
+            totalRideCost += calculateCostOfRide(ride.rideDistance,ride.timeInMin);
         }
         return totalRideCost;
+    }
+
+    public int getNumberOfRides(CabRide[] numberOfRides){
+        return numberOfRides.length;
+    }
+
+    public double calculateAverageCostForRides(CabRide[] rides){
+        double totalRideCost =  0;
+        for(CabRide ride : rides){
+            totalRideCost += calculateCostOfRide(ride.rideDistance,ride.timeInMin);
+        }
+        return totalRideCost / rides.length;
     }
 }

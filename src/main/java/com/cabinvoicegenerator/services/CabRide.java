@@ -1,11 +1,11 @@
 package com.cabinvoicegenerator.services;
 
 public class CabRide {
-    public final double RideDistance;
+    public final double rideDistance;
     public double timeInMin;
 
     public CabRide(double rideDistance, double timeInHrs) {
-        RideDistance = rideDistance;
+        this.rideDistance = rideDistance;
         this.timeInMin = timeInHrs * 60;
     }
 }
